@@ -67,10 +67,7 @@ td.sh {
     background-color: #f0f0f0;
 }
 
-/* Hover effect for table rows */
-tr:hover {
-    background-color: #f1f1f1;
-}
+
 
 /* Button styling */
 button {
@@ -84,7 +81,4 @@ button {
     transition: background-color 0.3s ease;
 }
 
-/* Button hover effect */
-button:hover {
-    background-color: #721403;
-}
+
