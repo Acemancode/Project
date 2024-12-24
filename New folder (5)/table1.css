@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background and text style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    background-image: url(images/360_F_921038135_OmV9zEpIf97WHW6zBkkYRzDflxkstGES.jpg);
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #810505;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    /* border-collapse: 500px; */
+    margin: 0 auto;
+    background-color: #774545b0;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Table header styling */
+th {
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+th.tt {
+    background-color: #ff5722;
+}
+
+th.t {
+    background-color: #d85d25;
+}
+
+th.tr {
+    background-color: #972705;
+}
+
+/* Table cell content styling */
+td {
+    background-color: #020000a4;
+    border-bottom: 1px solid #ddd;
+}
+
+td.sh {
+    background-color: #f0f0f0;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff33008c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #721403;
+}
